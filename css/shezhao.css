@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+	background: #F5F7FA;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+#Box{
+	width: 1023px;
+	background: white;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding: 1px;
+ }
+ 	#sousuo{
+ 		position: relative;
+ 		margin:40px;
+ 	}
+	.sousuo{
+		float: left;
+		width: 514px;
+		height: 34px;
+		padding-left: 108px;
+		border: 1px solid blue;
+	}
+	.btn1{
+		float: left;
+		width: 120px;
+		height: 36px;
+	}
+	.souTxt{
+		height: 15px;
+		width: 90px;
+		border-right: 1px solid #D5D5D5;
+		position: absolute;
+		font-size: 14px;
+		text-align: center;
+		top: 10px;
+		line-height: 15px;
+	}
+	.zhiType{
+		margin-left: 40px;
+		margin-top: 30px;
+	}
+	.zhiType input{
+		margin-bottom: 25px;
+		margin-right: 24px;
+		padding: 0 10px;
+		border-radius: 2px;
+		background: white;
+		border: 0;
+		outline: none;
+	}
+	.didianBox{
+		width: 810px;
+	}
+	.page1{
+		background: blue;
+		margin-left: 0px;
+	}
+	.data{
+		margin-top: 13px;
+		width: 980px;
+		margin-left:-20px;
+	}
+	.data tr td{
+		height: 40px;
+		font-size: 14px;	
+	}
