@@ -3,7 +3,64 @@
 <head>
 	<meta charset="UTF-8">
 	<title>头部导航栏</title>
-	<link rel="stylesheet" href="../css/topnav.css">
+	<style>
+		*{
+			padding:0;
+			margin:0;
+		}
+		a{
+			text-decoration: none;
+		}
+		.topnav{
+			height:100px;
+			/*background:skyblue;*/
+		}
+		.topnav .content{
+			height:100px;
+			width:68%;
+			/*background:gray;*/
+			margin:0 auto;
+		}
+		.topnav .content .logo{
+			float:left;
+			padding:27px 0;
+		}
+		.topnav .content .logo img{
+			display:inline;
+			width:278px;
+		}
+		.topnav .content .login_right{
+			float:right;
+			text-align: right;
+    		line-height: 26px;
+    		height: 26px;
+    		padding: 37px 0;
+		}
+		.topnav .content .login_right .need{
+			font-size:14px;
+		}
+		.topnav .content .login_right .need a{
+			color: #008cff;
+		}
+		.topnav .content #nav_bar{
+			width:500px;
+			list-style:none;
+			float:left;
+			padding:32px 0px;
+			margin:0px 40px;
+		}
+		.topnav .content #nav_bar li{
+			width:110px;
+			height:26px;
+			display: inline-block;
+			line-height:26px;
+			padding:0px 5px;
+			font-size:18px;
+		}
+		.topnav .content #nav_bar li a{
+			color:#222;
+		}
+	</style>
 </head>
 <body>
 	<div class="topnav">
