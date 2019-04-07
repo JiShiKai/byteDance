@@ -30,7 +30,7 @@ $(function(){
 		$('.carousel ul').stop().animate({"left":-2000*num},400)
 		$(".move ol li").eq(num).css("color","white").siblings().css("color","#A1A6DA");
 	}
-	$(".carousel").hover(function(){
+	$("#carousel").hover(function(){
 		$("#prev,#next").show(300);
 	},
 	function(){

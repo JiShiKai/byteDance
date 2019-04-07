@@ -13,9 +13,7 @@ body{
 	float: right;
 }
 #box{
-	height: 1000px;
-	width: 2000px;
-	margin: 0 auto;
+	position: relative;
 	overflow:hidden;
 }
 .carousel{
@@ -24,6 +22,8 @@ body{
 	background: red;
 	overflow:hidden;
 	position: relative;
+	left: 50%;
+	margin-left: -1000px;
 }
 .carousel ul{
 	width: 8000px;
@@ -67,11 +67,11 @@ body{
 		text-align: center;
 		line-height: 30px;
 		top: 120px;
-		left: 20px;
+		left: 10%;
 		cursor: pointer;
 	}
 	#next{
-		left: 1850px;
+		left: 90%;
 	}
 .main{
 	width: 1120px;
