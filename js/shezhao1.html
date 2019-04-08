@@ -1,4 +1,5 @@
-// 分页构造函数
+	// 分页
+	// 分页构造函数
 function PageCtrFn(program){
 	//分页按钮的容器
 	this.box = $('#'+program.ele);
@@ -111,12 +112,12 @@ PageCtrFn.prototype.bindEvent = function(num){
 }
 //根据页请求数据函数
 PageCtrFn.prototype.getDateFn = function(num){
-    $.get("http://192.168.43.210/qqq/byteDance/php/xiaoyuanzhaopin.php?page="+num,function(data){
+    $.get("http://192.168.43.54/php/zuoye/jobs/getdata.php?page="+num,function(data){
         console.log(data);
         var jsonstr = JSON.parse(data);
         var domStr = '<table cellpadding="0" cellspacing="0" class="data"><tr style="background:lightblue;"><td style="width:340px;padding-left: 35px">职位名称</td><td style="width:160px">职位类别</td><td style="width:160px">职位类型</td><td style="width:130px">工作地点</td><td style="width:130px">发布时间</td></tr>';
         for (var i = 0; i < jsonstr.data.length; i++) {
-            domStr +="<tr><td style='padding-left:35px'>"+jsonstr.data[i].职位名称+"</td><td>"+jsonstr.data[i].职位类别+"</td><td>"+jsonstr.data[i].职位类型+"</td><td>"+jsonstr.data[i].工作地点+"</td><td>"+jsonstr.data[i].发布时间+"</td></tr>"
+            domStr +="<tr><td style='padding-left:35px'>"+jsonstr.data[i].name+"</td><td>"+jsonstr.data[i].class+"</td><td>"+jsonstr.data[i].type+"</td><td>"+jsonstr.data[i].site+"</td><td>"+jsonstr.data[i].time+"</td></tr>"
 ;
         }
         domStr += "</table>";
