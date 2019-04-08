@@ -6,6 +6,16 @@
 #box{
 	background: #f5f7fa;
 }
+#con_l li:hover{
+	background: #008CFF;
+	color: white;
+	transition:all .3s;
+}
+.liaojie:hover{
+	background: #008CFF;
+	color: white;
+	transition:all .3s;
+}
 #con{
 	width: 1024px;
 		margin: 0 auto;
@@ -48,6 +58,9 @@
 .con_li_l{
 	color: #fff;
 	background-color: #008cff;
+}
+.ssp{
+	color: #fff;
 }
 #lon{
 	width: 180px;
