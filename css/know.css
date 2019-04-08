@@ -6,7 +6,7 @@
 #box{
 	background: #f5f7fa;
 }
-#con_l li:hover{
+#con_l ul li:hover{
 	background: #008CFF;
 	color: white;
 	transition:all .3s;
@@ -18,7 +18,7 @@
 }
 #con{
 	width: 1024px;
-		margin: 0 auto;
+	margin: 0 auto;
 	padding: 40px 0 60px; 
 }
 
@@ -48,19 +48,13 @@
 #con_ul li{
 	    height: 56px;
 		line-height: 56px;
-			 font-size: 14px;
-	   color: #303133;
-	    padding: 0 20px;
-}
-#con_li:hover{
-	 background-color: #008cff;
+		font-size: 14px;
+	   	color: #303133;
+	   	padding: 0 20px;
 }
 .con_li_l{
 	color: #fff;
 	background-color: #008cff;
-}
-.ssp{
-	color: #fff;
 }
 #lon{
 	width: 180px;
@@ -123,29 +117,29 @@
 }
 #con_rowl{
 	margin-top: 30px;
-		border-top: 1px solid #d9d9d9;
-		margin: 0 20px;
+	border-top: 1px solid #d9d9d9;
+	margin: 0 20px;
     padding: 30px 0;
     display: flex;
     align-items: center
 }
 .log{
 	width: 70px;
-		height: 70px;
+	height: 70px;
 }
 img{
 	max-width: 100%;
 }
 #content_o #text_row{
-	    margin: 0 20px 10px;
+	margin: 0 20px 10px;
 }
 #content_o{
-		color: rgba(0,0,0,.65);
-		line-height: 24px;
-		text-align: justify;
-		background: #fff;
-	    padding: 40px 20px;
-	    border-radius: 2px;
+	color: rgba(0,0,0,.65);
+	line-height: 24px;
+	text-align: justify;
+	background: #fff;
+    padding: 40px 20px;
+    border-radius: 2px;
 }
 #con_zi{
 	flex: 1;
@@ -196,7 +190,7 @@ img{
 .for:after{
 	clear: both;
 	display: table;
-		 content: "";
+	content: "";
 }
 .row{
 	margin-bottom: 28px;
@@ -205,7 +199,7 @@ img{
 .row:after,.row:before{
 	clear: both;
 	display: table;
-		content: "";
+	content: "";
 }
 .row_a{
 	width: 50%;
